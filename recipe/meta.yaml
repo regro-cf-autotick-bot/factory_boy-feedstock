@@ -21,11 +21,11 @@ build:
 requirements:
   build:
     - python
-    - setuptools
+    - setuptools >=0.8.0
 
   run:
     - python
-    - fake-factory >=0.5.0
+    - faker >=0.7.0
 
 test:
   imports:
