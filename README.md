@@ -11,6 +11,18 @@ Summary: A versatile test fixtures replacement based on thoughtbot's factory_gir
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/factory_boy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/factory_boy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/factory_boy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/factory_boy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/factory_boy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/factory-boy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/factory_boy/badges/version.svg)](https://anaconda.org/conda-forge/factory_boy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/factory_boy/badges/downloads.svg)](https://anaconda.org/conda-forge/factory_boy)
+
 Installing factory_boy
 ======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `factory_boy` available on your pl
 ```
 conda search factory_boy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/factory_boy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/factory_boy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/factory_boy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/factory_boy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/factory_boy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/factory-boy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/factory_boy/badges/version.svg)](https://anaconda.org/conda-forge/factory_boy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/factory_boy/badges/downloads.svg)](https://anaconda.org/conda-forge/factory_boy)
 
 
 Updating factory_boy-feedstock
