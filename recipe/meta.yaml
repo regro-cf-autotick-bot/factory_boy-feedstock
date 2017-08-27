@@ -1,8 +1,8 @@
 {%set name = "factory_boy" %}
-{%set version = "2.8.1" %}
+{%set version = "2.9.2" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "a6644e391a371be603aca8624f3dedbc5a2aa4622878c20494ba17abb4b171bb" %}
+{%set hash_val = "340c602f6fed2d8dd160397f28f2c0219e937f0488460450e8e5bf2add020ed6" %}
 {%set build_num = "0" %}
 
 package:
