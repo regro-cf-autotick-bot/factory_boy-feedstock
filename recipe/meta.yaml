@@ -26,6 +26,7 @@ requirements:
   run:
     - python
     - faker >=0.7.0
+    - ipaddress
 
 test:
   imports:
