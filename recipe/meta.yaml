@@ -1,9 +1,8 @@
 {% set name = "factory_boy" %}
-{% set version = "2.10.0" %}
+{% set version = "2.11.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "bd5a096d0f102d79b6c78cef1c8c0b650f2e1a3ecba351c735c6d2df8dabd29c" %}
-{% set build = 0 %}
+{% set hash = "d0f7209473312c99dfcf154069a1c559d83cfcae0979af43cf8779c9a9f645b3" %}
 
 package:
   name: {{ name|lower }}
@@ -11,17 +10,18 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build }}
+  number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
+    - pip
     - setuptools >=0.8.0
 
   run:
